@@ -1,0 +1,246 @@
+
+html, body{
+	height: 100%;
+	width: 100%;
+}
+
+body{
+font-family: 'Lato', sans-serif;
+background: repeating-linear-gradient(
+  -55deg,
+  white,
+  white 5px,
+  #eee 1px,
+  #eee 6px
+);
+}
+
+p{
+	font-size: 15px;
+}
+
+em{
+	font-size: 14px;
+	color: #eee;
+}
+
+.fa-facebook-square{
+	color: grey;
+	padding-top: 12px;
+	padding-left: 12px;
+}
+
+.fa-facebook-square:hover{
+	color: #8974FF;
+	transition: color .2s ease;
+}
+
+/* Navs */
+
+.navbar{
+	background-color: #eee;
+	font-family: 'Shadows Into Light', cursive;
+	border-radius: 0;
+	box-shadow: 2px 2px 4px 0.2px grey;
+	font-size: 25px;
+	margin-top: 15px;
+}
+
+.navbar li a, .navbar li a:visited{
+	color: #333;
+}
+
+.navbar li{
+	border-bottom: 3px solid transparent;
+}
+
+.navbar li:hover{
+	border-bottom: 3px solid #8974FF;
+}
+
+.navbar li a:visited:hover{
+	color:#8974FF;
+}
+
+.navbar-brand{
+	color: #222;
+}
+
+.navbar-brand p{
+	font-size: 30px;
+}
+
+.fotoBrand{
+	color:  #8974FF;
+	font-size: 15px;
+
+}
+
+.brand{
+	color: #333;
+}
+
+
+/* content */
+
+	/*portfolio*/
+
+.portfolio div div div{
+	padding: 2px;
+	position: relative;
+}
+
+.portfolio .img-responsive{
+	margin: auto;
+}
+
+
+button.close {
+  -webkit-appearance: none;
+  padding-right: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  color: white;
+  opacity: 0.8;
+  font-size: 25px;
+}
+
+.close:hover,
+.close:focus {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  filter: alpha(opacity=10);
+  opacity: .5;
+}
+
+.imgDescription {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 2px;
+  background: rgba(85, 85, 85, 0.6);
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 30%;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+ }
+
+ .portDiv a:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* FOOTER */
+.site-footer{
+background-color: #242424;    
+margin-top: 30px;    
+}
+
+.botton-footer{
+border-top: 1px solid #E0FFA2;
+margin-top: 10px;
+padding-top:10px;
+color: #b2b2b2;  
+text-align: center;  
+}
+
+.botton-footer p{
+color: #E0FFA2;  
+}
+
+.address p{
+	color: white;
+} 
+
+.about{
+	list-style: none; 
+	text-decoration: none;
+	color: white;
+}
+
+
+
+/*go to portfolio*/
+
+.footerNav h4{
+	list-style: none; 
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+
+.footerNav{
+	padding-top: 30px;
+	text-align: center;
+	padding-bottom:30px;
+}
+
+.footerNav > a {
+	list-style: none; 
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	background-color: white;
+	border: 1.5px solid white;
+	padding: 5px;
+	border-radius: 4px;
+
+}
+
+.footerNav > a:hover{
+	opacity: 0.8;
+	border: 1.5px solid white;
+	transition: opacity .5s ease;
+}
+
+.footerNav > a:not(:hover){
+	opacity: 1;
+	transition: opacity .5s ease;
+}
+
+
+.footerNav a:visited{
+	color: #242424; 
+}
+
+.footerPortfolioReturn{
+	border-top: 4px solid white;
+}
+
+/*Sobre*/
+.footerAbout{
+	border-top: 6px solid #8974FF;
+}
+
+.footerAbout h4{
+	padding-top: 5px;
+	color: #8974FF;
+	font-size: 30px;
+}
+
+/*Contato*/
+.footerContact{
+	border-top: 6px solid #E0FFA2;
+}
+
+.footerContact h4{
+	padding-top: 5px;
+	color: #E0FFA2;
+	font-size: 30px;
+}
+
+.address h5{
+	font-size: 17px;
+	color: #E0FFA2;
+}
+
+
